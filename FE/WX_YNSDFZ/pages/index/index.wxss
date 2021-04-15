@@ -1,0 +1,49 @@
+.index_swpier swiper image {
+    width: 100%
+}
+
+.index_cate1 {
+    display: flex
+}
+.cate{
+  margin-top: 20rpx;
+}
+.index_cate1 view {
+    flex: 1
+}
+
+.index_cate1 view image {
+    width: 65%
+}
+
+.gate1 {
+    display: flex;
+    justify-content:center;
+    align-items:center; 
+    padding-top: 20rpx;
+}
+
+.img {
+    width: 100%
+}
+
+.img1 {
+    width: 100%
+}
+
+.gate {
+    /* padding-left: 100rpx; */
+    
+    width: 30%;
+    
+}
+
+.love{
+    text-align: center;
+}
+.catezhong{
+    display: flex;
+    justify-content:center;
+    align-items:center; 
+   
+}

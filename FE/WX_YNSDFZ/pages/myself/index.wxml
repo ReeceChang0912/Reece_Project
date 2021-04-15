@@ -1,0 +1,18 @@
+<!--pages/myself/index.wxml-->
+<view class="user_info_wrap">
+	<view wx:if="{{userinfo.avatarUrl}}" class="user_bg">
+		<image class="user_img_bgc" src="https://i.niupic.com/images/2020/11/11/8YoZ.jpg"></image>
+		<view class="user_info">
+			<image class="user_icon" src="{{userinfo.avatarUrl}}"></image>
+			<view class="user_name"> {{userinfo.nickName}}</view>
+		</view>
+	</view>
+
+
+	<view wx:else class="user_btn">
+		<navigator url="/pages/login/index">登录</navigator>
+	</view>
+
+
+
+</view>

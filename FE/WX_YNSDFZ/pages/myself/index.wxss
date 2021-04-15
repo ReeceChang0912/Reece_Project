@@ -1,0 +1,56 @@
+/* pages/myself/index.wxss */
+.user_info_wrap{
+  height:65vh;
+  overflow: hidden;
+  background-color: var(--themeColor);
+ 
+}
+
+.user_img_bgc{
+
+  height:50vh;
+  filter:blur(4rpx);
+padding-left: 4.5em;       
+}
+
+.user_bg{
+ 
+  
+ position: relative;
+}
+
+.user_info{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  top:20%
+  text-align：center;
+
+}
+
+.user_icon{
+  width: 65rpx;
+  height:65rpx;
+  border-radius: 50%;
+}
+
+.user_name{
+  color:#FFF;
+  font-size: 38rpx;
+  
+}
+
+.user_btn{
+  position:absolute;
+  left:50%;
+  transform: translateX(-50%);
+  top:40%;
+  border-radius: 10rpx;
+  border:1rpx solid greenyellow;
+  color:greenyellow;
+  font-size: 38rpx;
+  padding:38rpx;
+  
+  
+
+}

@@ -1,0 +1,66 @@
+<view class="wafz_index">
+				<Searchinput></Searchinput>
+				<view class="index_swiper">
+								<swiper autoplay="{{false}}" indicator-dots="{{true}}" circular="{{false}}">
+												<swiper-item>
+																<navigator>
+																				<image class="img1" src="https://i.niupic.com/images/2020/10/11/8RrV.jpg" mode="widthFix"></image>
+																</navigator>
+												</swiper-item>
+												<swiper-item>
+																<navigator>
+																				<image class="img" src="https://i.niupic.com/images/2020/10/09/8OFq.jpg" mode="widthFix"></image>
+																</navigator>
+												</swiper-item>
+												<swiper-item>
+																<navigator>
+																				<image class="img" src="https://i.niupic.com/images/2020/10/09/8OFo.jpg" mode="widthFix"></image>
+																</navigator>
+												</swiper-item>
+								</swiper>
+				</view>
+				<view class="index_cate1,cate">
+								<view >
+												<navigator class="catezhong" url="">
+																<image src=" https://i.niupic.com/images/2020/10/11/8QXs.png " mode="widthFix" lazy-load="false"></image>
+												</navigator>
+												<view class="love">考试经验</view>
+								</view>
+								<view>
+												<navigator class="catezhong" url="">
+																<image src=" https://i.niupic.com/images/2020/10/11/8QXu.png " mode="widthFix" lazy-load="false"></image>
+												</navigator>
+												<view class="love">学习方法</view>
+								</view>
+								<view>
+												<navigator class="catezhong" url="">
+																<image src=" https://i.niupic.com/images/2020/10/11/8QXT.png " mode="widthFix" lazy-load="false"></image>
+												</navigator>
+												<view class="love">教师风采</view>
+								</view>
+				</view>
+				<view class="index_cate1">
+								<view>
+												<navigator class="catezhong" url="">
+																<image src=" https://i.niupic.com/images/2020/10/11/8QXR.png " mode="widthFix" lazy-load="false"></image>
+												</navigator>
+												<view class="love">体育活动</view>
+								</view>
+								<view>
+												<navigator class="catezhong" url="">
+																<image src=" https://i.niupic.com/images/2020/10/11/8QXS.png " mode="widthFix" lazy-load="false"></image>
+												</navigator>
+												<view class="love">文艺表演</view>
+								</view>
+								<view>
+												<navigator class="catezhong" url="">
+																<image src="https://i.niupic.com/images/2020/10/11/8QXU.png " mode="widthFix" lazy-load="false"></image>
+												</navigator>
+												<view class="love">附中美食</view>
+								</view>
+				</view>
+				<view class="gate1">
+								<image class="gate" src="https://i.niupic.com/images/2020/10/11/8Rs6.jpg" mode="widthFix" lazy-load="false"></image>
+				</view>
+				<view class="love">我永远爱师大附中</view>
+</view>

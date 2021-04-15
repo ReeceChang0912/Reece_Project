@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>怀念附中</title>
+    <style>
+        ul li a {
+            float: right;
+            color: #666;
+            font-size: small;
+            font-weight: 700;
+        }
+        
+        ul li {
+            width: 500px;
+            list-style: none;
+            border: 1px dashed #999;
+        }
+        
+        p {
+            text-indent: 3em;
+        }
+    </style>
+</head>
+
+<body>
+    <p>2020年6月28日 星期日 <br> 已经23点，在家的每一天过得都这样快。大学二年级的时光就要结束了，尽管要等到8月份才能考试，但是真的好快，这学期结束了。 这两天的清晨并没有芒种时节的热，清凉了许多。
+    </p>
+    <p>总有一段时光，是最珍贵的回忆，当你坐在阳台仰望天空，当你躺在床上思考人生，当你走在路上感受自然，当你入世与人交往，关于附中的回忆总是指引着我前行，多一些善良，多一份纯真。附中的岁月，不有大学的成熟，纯真确是占许多的。我的同学大多待我都很善良，都很有情有义，也是我愿意一起共同进步的人，很久没有踢球了，也没有打球，我已经习惯了附中的体育时光，别的都没有那种快乐很多的快乐，在12班是很幸福的。我好想再来一次帽子戏法，再来一次篮球场的毒奶，在一起看湖人队的比赛，在一起谈论人生，再一起下馆子，再一起去文林街与顺城，再一起坐公交，在一起看电影，再听一次导数，再读几篇文章。
+        我的老师们，段老师，戴老师，董老师，胡老师，我认识的老师，附中的老师是极可爱的人。我也想拥有他们的人格魅力，他们自由的思想与独立的人格与儒雅的气质。
+    </p>
+    <p>关于附中，我能讲许多天，现在23.25，眼睛比较疼，我打算就此草草收尾，想睡觉了，晚安，拜拜！</p>
+
+
+
+    <p><textarea cols="30" rows="5"></textarea> <button>commit</button></p>
+
+    <ul></ul>
+
+    <script>
+        var text = document.querySelector('textarea')
+        var btn = document.querySelector('button')
+        var myul = document.querySelector('ul')
+
+        btn.onclick = function() {
+            if (text.value == '') {
+                alert('Please input your commit');
+                return false;
+            } else {
+                var liinsert = document.createElement('li');
+                liinsert.innerHTML = text.value + "<a herf='javascript:;'>  Delete </a>"
+                myul.insertBefore(liinsert, myul.children[0]);
+
+                var as = document.querySelectorAll('a')
+                for (var i = 0; i < as.length; i++) {
+                    as[i].onclick = function() {
+                        myul.removeChild(this.parentNode)
+                    }
+                }
+
+            }
+
+
+        }
+    </script>
+</body>
+
+</html>

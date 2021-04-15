@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+em,
+i {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: #c81623
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.skyhead {
+    width: 100%;
+    height: 350px;
+    background-image: url(images/plane.jpg);
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 350px;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.headline {
+    height: 50px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+.me {
+    float: right;
+    line-height: 50px;
+}
+
+.headline image {
+    vertical-align: middle;
+}
+
+.headline .aphorisom {
+    float: left;
+    width: 1000px;
+    text-align: center;
+    font-size: 35px;
+    font-style: arial;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.search {
+    position: relative;
+    height: 30px;
+    width: 300px;
+    border: 1px solid #f9f9f9;
+    color: #999;
+    margin: 20px auto;
+}
+
+.lens {
+    position: absolute;
+    right: 5px;
+    top: 3px;
+}
+
+.search input {
+    color: #999;
+    line-height: 30px;
+    outline: none;
+    border: 0px;
+}
+
+.outline ul li {
+    display: block;
+    float: left;
+    padding-right: 2em;
+    font-size: 15px;
+    font-weight: 700;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+}
+
+.outline {
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    height: 50px;
+    line-height: 50px;
+}
+
+.photography {
+    height: 275px;
+}
+
+.tag1 {
+    float: left;
+    width: 200px;
+    height: 100%;
+    margin-right: 1px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 272px;
+    border-right: 2px dashed white;
+    background-color: #f9f9f9;
+}
+
+.photolist {
+    float: left;
+    width: 990px;
+    height: 100%;
+    background-color: #f9f9f9;
+}
+
+.photolist ul {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.photolist ul li {
+    margin-left: 1px;
+    float: left;
+}
+
+.photolist ul li image {
+    width: 246.5px;
+    height: 256px;
+}
+
+.bookmovies {
+    height: 300px;
+    margin-top: 30px;
+}
+
+.tag2 {
+    float: left;
+    width: 200px;
+    height: 100%;
+    margin-right: 1px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 300px;
+    border-right: 2px dashed white;
+    background-color: #f9f9f9;
+}
+
+.bmlist {
+    float: left;
+    height: 100%;
+    width: 990px;
+    background-color: #F9F9F9;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.bmlist .book {
+    float: left;
+    width: 482x;
+    height: 100%;
+    margin-left: 1px;
+    margin-right: 5px;
+}
+
+.bmlist .movie {
+    float: right;
+    width: 482px;
+    height: 100%;
+    margin-left: 1px;
+}
+
+.programming {
+    height: 590px;
+    margin-top: 30px;
+}
+
+.reason {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tag3 {
+    float: left;
+    width: 200px;
+    height: 580px;
+    margin-right: 1px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 580px;
+    border-right: 2px dashed white;
+    background-color: #f9f9f9;
+}
+
+.v1 {
+    height: 510px;
+    width: 810px;
+    margin: 30px auto;
+}
+
+.sons {
+    display: none;
+    position: absolute;
+    bottom: -70px;
+}
+
+.outline ul li[class^=icon] {
+    position: relative;
+}

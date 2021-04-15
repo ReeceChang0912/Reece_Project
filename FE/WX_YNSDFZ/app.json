@@ -1,0 +1,71 @@
+{
+  "pages":[ 
+    "pages/index/index",
+    "pages/authorization/index",
+    "pages/feedback/index",
+    "pages/myself/index",
+    "pages/search/index",
+    "pages/login/index",
+    "pages/resourse/index",
+    "pages/forum/index"
+    
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#87CEEB",
+    "navigationBarTitleText": "我爱附中",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [
+
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/xinwengonggao.png",
+      "selectedIconPath": "icons/xinwengonggao-2.png"
+    },
+
+    {
+      "pagePath": "pages/forum/index",
+      "text": " 论坛",
+      "iconPath": "icons/luntan.png",
+      "selectedIconPath": "icons/luntan-2.png"
+    },
+
+    {
+      "pagePath": "pages/resourse/index",
+      "text": "资源",
+      "iconPath": "icons/ziyuan.png",
+      "selectedIconPath": "icons/ziyuan-2.png"
+    },
+
+    {
+      "pagePath": "pages/myself/index",
+      "text": "师附人",
+      "iconPath": "icons/wode.png",
+      "selectedIconPath": "icons/wode-2.png"
+    }
+    
+
+  
+  
+  
+  
+  
+  
+  
+  
+  ]
+
+
+
+
+
+
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,104 @@
+<!--pages/resourse/index.wxml-->
+
+
+<view class="container more">
+	<view class="user ">
+		<view class="avatar ">
+			<image class="userinfo-avatar" src="https://i.niupic.com/images/2020/11/11/8YpL.jpg" background-size="cover"></image>
+		</view>
+		<view class="user-info ">
+			<text class="userinfo-nickname">知道自己要做什么，便成功了50%，知道其需要什么资源，便成功了30%，剩下的20%是方法与努力。</text>
+			<text class="edit">冲啊，珍惜最美好的附中时光</text>
+		</view>
+	</view>
+
+	<view class="my">
+		<view class="my-item flex-wrp">
+			<view class="myitem-icon flex-item">
+				<image src="https://i.niupic.com/images/2020/11/11/8YpZ.png"></image>
+			</view>
+			<view class="myitem-name flex-item">
+				<text>语文</text>
+			</view>
+		</view>
+		<view class="my-item flex-wrp">
+			<view class="myitem-icon flex-item">
+				<image src="https://i.niupic.com/images/2020/11/11/8Yqu.png"></image>
+			</view>
+			<view class="myitem-name flex-item">
+				<text>数学</text>
+			</view>
+		</view>
+		<view class="my-item flex-wrp">
+			<view class="myitem-icon flex-item">
+				<image src="https://i.niupic.com/images/2020/11/11/8Yq0.png"></image>
+			</view>
+			<view class="myitem-name flex-item">
+				<text>英语</text>
+			</view>
+		</view>
+		<view class="my-item flex-wrp">
+			<view class="myitem-icon flex-item">
+				<image src="https://i.niupic.com/images/2020/11/11/8Yq1.png"></image>
+			</view>
+			<view class="myitem-name flex-item">
+				<text>物理</text>
+			</view>
+		</view>
+		<view class="my-item flex-wrp">
+			<view class="myitem-icon flex-item">
+				<image src="https://i.niupic.com/images/2020/11/11/8Yq3.png"></image>
+			</view>
+			<view class="myitem-name flex-item">
+				<text>化学</text>
+			</view>
+		</view>
+		<view class="my-item flex-wrp">
+			<view class="myitem-icon flex-item">
+				<image src="https://i.niupic.com/images/2020/11/11/8YpY.png"></image>
+			</view>
+			<view class="myitem-name flex-item">
+				<text>生物</text>
+			</view>
+		</view>
+		<view class="my-item flex-wrp">
+			<view class="myitem-icon flex-item">
+				<image src="https://i.niupic.com/images/2020/11/11/8Yqv.png"></image>
+			</view>
+			<view class="myitem-name flex-item">
+				<text>地理</text>
+			</view>
+		</view>
+
+	<view class="my-item flex-wrp">
+			<view class="myitem-icon flex-item">
+				<image src="https://i.niupic.com/images/2020/11/11/8Yq5.png"></image>
+			</view>
+			<view class="myitem-name flex-item">
+				<text>政治</text>
+			</view>
+		</view>
+
+
+
+	<view class="my-item flex-wrp">
+			<view class="myitem-icon flex-item">
+				<image src="https://i.niupic.com/images/2020/11/11/8Yqw.png"></image>
+			</view>
+			<view class="myitem-name flex-item">
+				<text>历史</text>
+			</view>
+		</view>
+
+	<view class="my-item flex-wrp">
+			<view class="myitem-icon flex-item">
+				<image src="https://i.niupic.com/images/2020/11/11/8Yqx.png"></image>
+			</view>
+			<view class="myitem-name flex-item">
+				<text>选修</text>
+			</view>
+		</view>
+
+
+	</view>
+</view>

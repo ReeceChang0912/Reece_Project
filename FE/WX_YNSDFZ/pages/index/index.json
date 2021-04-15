@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+   "Searchinput":"../../components/Searchinput/Searchinput"
+
+
+  },
+  "navigationBarTitleText": "我爱附中"
+}
