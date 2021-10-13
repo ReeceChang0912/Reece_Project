@@ -7,7 +7,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1jx2eJoZiWTHvf5kb9b8CRt7Vj0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -94,33 +98,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="363" y="296" key="FileChooserDialogImpl" timestamp="1605321620401">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1259" height="117" key="GridCell.Tab.0.bottom" timestamp="1628179434925">
+      <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state x="363" y="296" key="FileChooserDialogImpl/1920.0.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1605321620401" />
-    <state width="1242" height="284" key="GridCell.Tab.0.bottom" timestamp="1605323881257">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1259" height="117" key="GridCell.Tab.0.bottom/0.0.1280.688@0.0.1280.688" timestamp="1628179434925" />
+    <state width="1259" height="117" key="GridCell.Tab.0.center" timestamp="1628179434924">
+      <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1242" height="284" key="GridCell.Tab.0.bottom/1920.0.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1605323881257" />
-    <state width="1259" height="166" key="GridCell.Tab.0.bottom/1920.0.1280.700/0.0.1920.1050@1920.0.1280.700" timestamp="1604735592729" />
-    <state width="1242" height="284" key="GridCell.Tab.0.center" timestamp="1605323881257">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1259" height="117" key="GridCell.Tab.0.center/0.0.1280.688@0.0.1280.688" timestamp="1628179434924" />
+    <state width="1259" height="117" key="GridCell.Tab.0.left" timestamp="1628179434924">
+      <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1242" height="284" key="GridCell.Tab.0.center/1920.0.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1605323881257" />
-    <state width="1259" height="166" key="GridCell.Tab.0.center/1920.0.1280.700/0.0.1920.1050@1920.0.1280.700" timestamp="1604735592728" />
-    <state width="1242" height="284" key="GridCell.Tab.0.left" timestamp="1605323881257">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1259" height="117" key="GridCell.Tab.0.left/0.0.1280.688@0.0.1280.688" timestamp="1628179434924" />
+    <state width="1259" height="117" key="GridCell.Tab.0.right" timestamp="1628179434925">
+      <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1242" height="284" key="GridCell.Tab.0.left/1920.0.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1605323881257" />
-    <state width="1259" height="166" key="GridCell.Tab.0.left/1920.0.1280.700/0.0.1920.1050@1920.0.1280.700" timestamp="1604735592728" />
-    <state width="1242" height="284" key="GridCell.Tab.0.right" timestamp="1605323881257">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1242" height="284" key="GridCell.Tab.0.right/1920.0.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1605323881257" />
-    <state width="1259" height="166" key="GridCell.Tab.0.right/1920.0.1280.700/0.0.1920.1050@1920.0.1280.700" timestamp="1604735592729" />
-    <state x="463" y="170" key="SettingsEditor" timestamp="1605321631643">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="463" y="170" key="SettingsEditor/1920.0.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1605321631643" />
+    <state width="1259" height="117" key="GridCell.Tab.0.right/0.0.1280.688@0.0.1280.688" timestamp="1628179434925" />
   </component>
 </project>
