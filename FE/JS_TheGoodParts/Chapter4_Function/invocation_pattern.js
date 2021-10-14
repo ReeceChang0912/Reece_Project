@@ -27,7 +27,7 @@
             console.log('我的工资高')
         }
         tencent()
-//构造函数调用方式 这个其实就是有一个constructor
+//3.构造函数调用方式 这个其实就是有一个constructor
 //把函数当对象看 利用原型链的知识
         offer = function (str) {
             this.company=str
@@ -37,7 +37,7 @@
         }
         var myOffer = new offer('MeiTuan')
         myOffer.getOfferName()
-// call bind apply
+//4. call bind apply
 var school = {
             finnace:'long_term'
 }
