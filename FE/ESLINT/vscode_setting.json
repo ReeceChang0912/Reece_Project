@@ -1,0 +1,64 @@
+{
+    "emmet.includeLanguages": {
+        "wxml": "html"
+    },
+    "editor.formatOnType": true,
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "*.js": "javascriptreact"
+    },
+    "minapp-vscode.disableAutoConfig": true,
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "less.compile": {
+        "compress": true, // 是否删除多余空白字符
+        "sourceMap": false, // 是否创建文件目录树，true的话会自动生成一个 .css.map 文件
+        "out": true, // 是否输出css文件，false为不输出
+        "outExt": ".wxss", // 输出文件的后缀,默认为.css
+    },
+    "prettier.eslintIntegration": true,
+    "git.ignoreMissingGitWarning": true,
+    "[html]": {
+        "editor.defaultFormatter": "svipas.prettier-plus"
+    },
+    "files.autoGuessEncoding": true,
+    "workbench.preferredDarkColorTheme": "Default Light+",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "window.zoomLevel": 1,
+    "explorer.confirmDragAndDrop": false,
+    "vetur.validation.template": false,
+    "workbench.sideBar.location": "right",
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".vue"
+        ]
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+}

@@ -8,7 +8,7 @@ export default class Footer extends Component {
         clearAll: PropTypes.func.isRequired
     }
     
-    handleCheckAll = (event) => {
+    handleCheckAll = (event)=>{
         this.props.checkAll(event.target.checked)
     }
 

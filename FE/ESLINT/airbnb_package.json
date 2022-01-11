@@ -1,0 +1,53 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "npm run lint:css && npm run lint:eslint:quiet",
+    "lint:css": "stylelint './src/**/*.{js,ts,tsx}'",
+    "lint:eslint:quiet": "eslint --ext .ts,.tsx,.js,.jsx  ./src --no-error-on-unmatched-pattern --quiet",
+    "lint:eslint": "eslint --ext .ts,.tsx,.js,.jsx  ./src --no-error-on-unmatched-pattern",
+    "lint:eslint:fix": "eslint --ext .ts,.tsx,.js,.jsx  ./src --no-error-on-unmatched-pattern --quiet --fix"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "eslint-config": "^0.3.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.5.4",
+    "@babel/preset-react": "^7.16.7",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "2.5.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "airbnb",
+      "airbnb/hooks"
+    ],
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
